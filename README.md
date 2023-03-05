@@ -10,12 +10,12 @@ Front-End designing
 2. CSS3
 3. Bootstrap
 4. Javascript
-5. 
+
 Back-End programming
 1. Java (core)
 2. Servlet
 3. MySQL
-4. 
+
 HOW TO RUN THIS ON YOUR COMPUTER?
 
 Pre-requisites: JDK, Netbeans IDE (Version 8.2), Sublime Text (optional), Tomcat Server
