@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>USER LOGIN</title>
+        <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style type="text/css">
+        #userlogin
+        {
+            position: absolute;
+            width: 350px;
+            height: 500px;
+            padding: 20px;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .form
+        {
+            padding: 20px;
+        }
+        .pt-1
+        {
+            padding-top: 1rem;
+        }
+    </style>
+    </head>
+    <body>
+        <section id="userlogin">
+            <div class="card z-depth-3">
+                <div class="card-panel center black darken-3">
+                    <span class="card-title white-text">User Sign up</span>
+                </div>
+                <form class="form" action="UserSignUp" method="post">
+                    <div class="input-field">
+                        <input type="text" class="validate" name="name">
+                        <label>Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" class="validate" name="email">
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="date" class="validate" name="dob">
+                        <label>Date of birth</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" class="validate" name="gender" placeholder="M for Male-F or Female-O for Others">
+                        <label>Gender</label>
+                    </div>
+                    <div class="input-field ">
+                        <input type="password" class="validate" name="password">
+                        <label>Password</label>
+                    </div>
+                    <div class="center">
+<!--                        <button type="submit" class="btn-large light-blue darken-3">Sign-in</button>-->
+                        <input type="submit" value="submit" class="btn-large black darken-3">
+                    </div>
+                    <div class="center pt-1">
+                        <a href="userloginpage.html">Login</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+    </body>
+</html>
