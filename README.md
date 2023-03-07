@@ -1,20 +1,32 @@
 # BookMySeat
-BookMySeat is a webapp for seat booking in the movie hall.
+
+BookMySeat is a web application that allows users to book hall seats in a movie theatre online. It is designed using Bootstrap, HTML5, CSS3, JavaScript, and jQuery in the frontend and Java, JSP, Servlet in the backend. MySQL is used as the database management system. The application aims to provide a simple and user-friendly interface for users to book their desired seats in the movie theatre.
+
 ABOUT
-bookmyseat.com is a movie ticket booking web-app prototype. The users can select the
-movie and book a seat of their choice.
+
+BookMySeat is a simple and user-friendly web application that allows users to book their desired seats in a movie theatre online. It is designed using Bootstrap, HTML5, CSS3, JavaScript, and jQuery in the frontend and Java, JSP, Servlet in the backend. MySQL is used as the database management system. The application is easy to use and provides a seamless experience for users to book their movie tickets.
+
 TECHNOLOGIES USED
 The following technologies were used in building of this web-application:
+
 Front-End designing
 1. HTML5
 2. CSS3
 3. Bootstrap
 4. Javascript
 
+The frontend of the application is designed using Bootstrap, HTML5, CSS3, JavaScript, and jQuery. Bootstrap is used to create a responsive design that adapts to different screen sizes. HTML5 and CSS3 are used to structure and style the web page. JavaScript and jQuery are used to add interactivity and dynamic features to the application, such as seat selection and payment processing.
+
 Back-End programming
 1. Java (core)
 2. Servlet
-3. MySQL
+
+The backend of the application is implemented using Java, JSP, Servlet. Java is used to handle the business logic of the application, such as booking confirmation and payment processing. JSP is used to create dynamic web pages that display the booking details to the user. Servlet is used to handle HTTP requests and responses between the server and the client.
+
+Database
+1. MySQL
+
+MySQL is used as the database management system to store the user registration details, seat availability, and booking history.
 
 HOW TO RUN THIS ON YOUR COMPUTER?
 
@@ -57,4 +69,5 @@ respective table is essential.
 ● Additionally there exists a folder named image for storing the movie’s poster.
 
 Love & Regards,
+
 Sagar Dutta
